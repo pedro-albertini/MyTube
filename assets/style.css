@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container-iframe {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form {
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.77);
+}
+.container-form h2{
+    margin-bottom: 2.5rem;
+}
+#botao{
+    width: 12rem;
+}
+#botao a{
+    text-decoration: none;
+    color: white;
+}
+.nav-btn {
+    background-color: white;
+    width: 7rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
+
+.nav-btn a {
+    color: #000000;
+}
+
+.nav-btn a:hover {
+    color: red;
+    transition: 0.3s all;
+    text-decoration: none;
+}
+
